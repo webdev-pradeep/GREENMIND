@@ -1,9 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import Header from "./Components/Header";
-import Pages from "./Components/Pages";
 import HomePage from "./Components/Home";
 import FooterPage from "./Components/Footer";
+import ProductPage from "./Components/Product";
+import ContactsPage from "./Components/Contacts";
 
 const App = () => {
   return (
@@ -11,10 +12,11 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/pages" element={<Pages />} />
+        <Route path="/product" element={<ProductPage />} />
+        <Route path="/contact" element={<ContactsPage />} />
         <Route path="/footer" element={<FooterPage />} />
-        {/* <Route path="/:message" element={<Message />} /> */}
       </Routes>
+      <FooterPage />
     </>
   );
 };
