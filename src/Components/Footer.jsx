@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const FooterPage = () => {
   return (
     <>
-      <div className=" w-[100%] mt-15 bg-[#C1DCDC]   md:mt-15 md:w-[100%] md:bg-[#C1DCDC] md:flex md:justify-between md:p-10">
+      <div className=" w-[100%] mt-5 bg-[#C1DCDC] md:w-[100%] md:bg-[#C1DCDC] md:flex md:justify-between md:p-10">
         <div className=" p-4 text-center  md:grid md:gap-5 md:pl-20">
           <td className="  text-center grid gap-2 md:grid ">
             <th className="text-3xl font-bold md:text-2xl md:text-black md:cursor-pointer md:hover:text-black/50 md:active:text-black md:transition-all md:duration-[0.5s] md:ease-in-out ">

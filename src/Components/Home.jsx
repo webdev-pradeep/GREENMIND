@@ -119,73 +119,73 @@ function HomePage() {
           </ul>
         </div>
 
-        <h1 className="md:text-4xl md:text-black md:font-bold md:font-serif md:text-center md:mt-9">
+        <h1 className=" text-3xl w-[100%] text-center font-serif font-bold md:text-4xl md:text-black md:font-bold md:font-serif md:text-center md:mt-9">
           About us
         </h1>
-        <p className="md:text-xl md:text-black md:font-serif md:text-center">
+        <p className=" text-lg text-[14px] text-center  md:text-xl md:text-black md:font-serif md:text-center">
           Order now and appreciate the beauty of nature
         </p>
 
-        <ul className="md:flex md:justify-center md:items-center md:gap-5 md:mt-12 ">
-          <ul className="md:h-[250px] bg-white rounded-2xl  md:p-5 md:w-[400px] md:hover:shadow-2xl md:transition-all md:duration-500  md:hover:transform hover:translate-2">
-            <li className="md:h-18  md:w-18 rounded-full bg-[#C1DCDC] md:flex md:items-center md:justify-center md:hover:bg-red-200 md:transition-all md:duration-500 md:active:bg-red-100 ml-[150px]">
-              <GiTreehouse className="md:text-5xl md:cursor-pointer " />
+        <ul className=" grid grid-cols-1 gap-5 p-5 md:flex md:justify-center md:items-center md:gap-5 md:mt-12 ">
+          <ul className=" h-[100%] w-[100%] p-3 md:h-[250px] bg-white rounded-2xl  md:p-5 md:w-[400px] hover:shadow-2xl transition-all duration-500  hover:transform hover:translate-2">
+            <li className=" ml-28 w-[50px]  md:h-18  md:w-18 rounded-full bg-[#C1DCDC] flex items-center justify-center hover:bg-red-200 transition-all duration-500 active:bg-red-100 md:ml-[150px]">
+              <GiTreehouse className=" p-2 text-5xl md:text-5xl md:cursor-pointer " />
             </li>
-            <li className="md:text-2xl md:font-black md:font-serif md:text-center md:mt-6 ">
+            <li className=" mt-3 text-2xl font-black font-serif text-center md:mt-6 ">
               Large Assortment
             </li>
-            <li className="md:text-ms text-center">
+            <li className=" mt-2 pb-5 text-ms text-center">
               we offer many different types of products with fewer variations in
               each category.
             </li>
           </ul>
 
-          <ul className="md:h-[250px] bg-white rounded-2xl  md:p-5 md:w-[400px] md:hover:shadow-2xl md:transition-all md:duration-500 md:hover:translate-1">
-            <li className="md:h-18  md:w-18 rounded-full bg-[#C1DCDC] md:flex md:items-center md:justify-center md:hover:bg-red-200 md:transition-all md:duration-500 md:active:bg-red-100 ml-[150px] ">
-              <SlCallOut className="md:text-4xl md:cursor-pointer" />
+          <ul className="h-[100%] p-4 md:h-[250px] bg-white rounded-2xl  md:p-5 md:w-[400px] hover:shadow-2xl transition-all duration-500  hover:translate-1">
+            <li className=" ml-25 w-[60px] p-3 md:h-18  md:w-18 rounded-full bg-[#C1DCDC] flex items-center justify-center hover:bg-red-200 transition-all duration-500 active:bg-red-100 md:ml-[150px] ">
+              <SlCallOut className=" text-4xl md:text-4xl md:cursor-pointer" />
             </li>
-            <li className="md:text-2xl md:font-black md:font-serif md:text-center md:mt-5 ">
+            <li className=" text-2xl font-black font-serif text-center mt-2 md:mt-5 ">
               Fast & Free Shipping
             </li>
-            <li className="md:text-ms text-center">
+            <li className="text-ms text-center">
               4-day or less delivery time, free shipping and an expedited
               delivery option.
             </li>
           </ul>
 
-          <ul className="md:h-[250px] bg-white rounded-2xl  md:p-5 md:w-[400px] md:hover:shadow-2xl md:transition-all md:duration-500 md:hover:translate-1">
-            <li className="md:h-18  md:w-18 rounded-full bg-[#C1DCDC] md:flex md:items-center md:justify-center md:hover:bg-red-200 md:transition-all md:duration-500 md:active:bg-red-100 ml-[150px]">
-              <PiShippingContainerFill className="md:text-4xl md:cursor-pointer" />
+          <ul className="  md:h-[250px] p-5 bg-white rounded-2xl  md:p-5 md:w-[400px] hover:shadow-2xl transition-all duration-500  hover:translate-1">
+            <li className="w-16 p-3 ml-25  md:h-18  md:w-18 rounded-full bg-[#C1DCDC] flex items-center justify-center hover:bg-red-200 transition-all duration-500 active:bg-red-100 md:ml-[150px]">
+              <PiShippingContainerFill className="text-4xl md:text-4xl md:cursor-pointer" />
             </li>
-            <li className="md:text-2xl md:font-black md:font-serif md:text-center md:mt-5">
+            <li className="  text-2xl font-black font-serif text-center mt-3 md:mt-5">
               24/7 Support
             </li>
-            <li className="md:text-ms text-center">
+            <li className="text-ms text-center pb-5">
               answers to any business related inquiry 24/7 and in real-time.
             </li>
           </ul>
         </ul>
 
-        <h1 className="md:text-4xl md:text-black md:font-bold md:font-serif md:text-center md:mt-9">
+        <h1 className=" text-4xl text-black font-bold font-serif text-center mt-9">
           Categories
         </h1>
-        <p className="md:text-xl md:text-black md:font-serif md:text-center">
-          Find what you are looking for{" "}
+        <p className="md:text-xl text-[12px] text-black mt-2 md:font-serif text-center">
+          Find what you are looking for
         </p>
 
-        <div className="md:h-[480px] md:w-auto bg-[#C1DCDC] md:flex  md:justify-center md:items-center mt-8 rounded-2xl relative md:shadow-2xl">
-          <div className="w-auto relative right-50">
+        <div className=" grid grid-cols-1 gap-5 w-[100%] p-5  md:h-[480px] md:w-auto bg-[#C1DCDC] md:flex  md:justify-center md:items-center mt-8 rounded-2xl md:relative shadow-2xl">
+          <div className="w-auto md:relative right-50">
             <img
               src="src/assets/image 5.png"
               alt="image5"
-              className="md:w-[250px] object-contain cursor-pointer md:transition-all md:duration-500 md:ease-in-out hover:md:shadow-2xl hover:shadow-black md:rounded-xl hover:md:translate-1"
+              className="md:w-[250px] object-contain cursor-pointer transition-all duration-500 ease-in-out hover:md:shadow-2xl hover:shadow-black md:rounded-xl hover:translate-1"
             />
             <a href="#" className="text-xl font-bold flex justify-center mt-5">
               Natural Plants
             </a>
           </div>
 
-          <div className="w-auto absolute top-0">
+          <div className="w-auto md:absolute top-0">
             <img
               src="src/assets/image 6.png"
               alt="image6"
@@ -203,7 +203,7 @@ function HomePage() {
             <img
               src="src/assets/image 7.png"
               alt="image7"
-              className="md:w-[250px] object-contain cursor-pointer md:transition-all md:duration-500 md:ease-in-out hover:md:shadow-2xl hover:shadow-black md:rounded-xl hover:md:translate-1 "
+              className="md:w-[250px] object-contain cursor-pointer transition-all duration-500 ease-in-out hover:shadow-2xl hover:shadow-black rounded-xl hover:translate-1 "
             />
             <a href="#" className="text-xl font-bold flex justify-center mt-4 ">
               Artificial Plants
