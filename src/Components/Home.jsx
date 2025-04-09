@@ -49,7 +49,7 @@ function HomePage() {
 
           <div className="md:w-[30%] md:h-[100%] relative">
             <img
-              src="src/assets/image 1.png  "
+              src="/assets/image1.png"
               alt="image1"
               className=" w-[100%] object-center   "
             />
@@ -79,7 +79,7 @@ function HomePage() {
           <ul className="w-[100%] bg-white rounded-2xl p-1  md:w-[100%] md:bg-white md:rounded-xl ">
             <li>
               <img
-                src="src/assets/image 2.png"
+                src="/assets/image2.png"
                 alt="image2"
                 className="pointer-cursor object-contain md:cursor-pointer"
               />
@@ -93,7 +93,7 @@ function HomePage() {
           <ul className="w-[100%] bg-white rounded-2xl p-1  md:w-[100%] md:bg-white md:rounded-xl ">
             <li>
               <img
-                src="src/assets/image 3.png"
+                src="/assets/image3.png"
                 alt="image3"
                 className=" pointer-cursor object-contain md:cursor-pointer"
               />
@@ -107,7 +107,7 @@ function HomePage() {
           <ul className="w-[100%] bg-white rounded-2xl p-1  md:w-[100%] md:bg-white md:rounded-xl ">
             <li>
               <img
-                src="src/assets/image 4.png"
+                src="/assets/image4.png"
                 alt="image4"
                 className=" pointer-cursor object-contain md:cursor-pointer"
               />
@@ -176,7 +176,7 @@ function HomePage() {
         <div className=" grid grid-cols-1 gap-5 w-[100%] p-5  md:h-[480px] md:w-auto bg-[#C1DCDC] md:flex  md:justify-center md:items-center mt-8 rounded-2xl md:relative shadow-2xl">
           <div className="w-auto md:relative right-50">
             <img
-              src="src/assets/image 5.png"
+              src="/assets/image5.png"
               alt="image5"
               className="md:w-[250px] object-contain cursor-pointer transition-all duration-500 ease-in-out hover:md:shadow-2xl hover:shadow-black md:rounded-xl hover:translate-1"
             />
@@ -187,7 +187,7 @@ function HomePage() {
 
           <div className="w-auto md:absolute top-0">
             <img
-              src="src/assets/image 6.png"
+              src="/assets/image6.png"
               alt="image6"
               className="md:w-[250px] object-contain cursor-pointer md:transition-all md:duration-500 md:ease-in-out hover:md:shadow-2xl hover:shadow-black md:rounded-xl hover:md:translate-1"
             />
@@ -201,7 +201,7 @@ function HomePage() {
 
           <div className="w-auto md:relative left-50">
             <img
-              src="src/assets/image 7.png"
+              src="/assets/image7.png"
               alt="image7"
               className="md:w-[250px] object-contain cursor-pointer transition-all duration-500 ease-in-out hover:shadow-2xl hover:shadow-black rounded-xl hover:translate-1 "
             />
