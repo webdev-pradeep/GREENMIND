@@ -31,6 +31,12 @@ const ProductPage = () => {
       alt: "Image 4",
       title: "Ocean Sunset",
     },
+    {
+      id: 5,
+      src: "public/assets/PhotoRoom.webp",
+      alt: "Image 4",
+      title: "Ocean Sunset",
+    },
   ];
 
   // Navigate to next slide
@@ -209,13 +215,50 @@ const ProductPage = () => {
                   onClick={() => goToSlide(index)}
                   className={`w-3 h-3 rounded-full focus:outline-none transition-all duration-200 ${
                     index === currentIndex
-                      ? "bg-blue-600 w-6"
+                      ? "bg-green-600 w-6"
                       : "bg-gray-300 hover:bg-gray-400"
                   }`}
                   aria-label={`Go to slide ${index + 1}`}
                 />
               ))}
             </div>
+          </div>
+
+          {/* ------images-contact------ */}
+          <div>
+            <h1 className="md:text-5xl text-center font-serif mt-10 ">
+              FLOWER,S
+            </h1>
+            <ul className="w-[100%] md:flex md:justify-center md:gap-4 md:p-10 ">
+              <li>
+                <img
+                  src="public/assets/guldasta1.png"
+                  alt="guldasta1"
+                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105 "
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta2.png"
+                  alt="guldasta2"
+                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta3.png"
+                  alt="guldasta3"
+                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105"
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta4.png"
+                  alt="guldasta4"
+                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </section>
