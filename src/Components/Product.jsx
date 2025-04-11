@@ -226,36 +226,67 @@ const ProductPage = () => {
 
           {/* ------images-contact------ */}
           <div>
-            <h1 className="md:text-5xl text-center font-serif mt-10 ">
+            <h1 className=" text-2xl underline  md:text-5xl  text-center font-serif mt-10 ">
               FLOWER,S
             </h1>
-            <ul className="w-[100%] md:flex md:justify-center md:gap-4 md:p-10 ">
+            <ul className="w-[100%]  grid grid-cols-1 gap-5 p-2 md:flex md:justify-center md:gap-4 md:p-10 ">
               <li>
                 <img
                   src="public/assets/guldasta1.png"
                   alt="guldasta1"
-                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105 "
+                  className="w-[100%] h-[100%] md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105 "
                 />
               </li>
               <li>
                 <img
                   src="public/assets/guldasta2.png"
                   alt="guldasta2"
-                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                  className=" w-[100%] h-[100%]  md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
                 />
               </li>
               <li>
                 <img
                   src="public/assets/guldasta3.png"
                   alt="guldasta3"
-                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105"
+                  className=" w-[100%] h-[100%]  md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105"
                 />
               </li>
               <li>
                 <img
                   src="public/assets/guldasta4.png"
                   alt="guldasta4"
-                  className="md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                  className=" w-[100%] h-[100%]  md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                />
+              </li>
+            </ul>
+
+            <ul className=" w-[100%] grid grid-cols-1 gap-5 p-2 md:flex md:justify-center md:gap-4 md:p-10 md:pt-5 ">
+              <li>
+                <img
+                  src="public/assets/guldasta5.png"
+                  alt="guldasta1"
+                  className=" w-[100%] h-[100%] md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105 "
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta6.png"
+                  alt="guldasta2"
+                  className="  w-[100%] h-[100%] md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta7.png"
+                  alt="guldasta3"
+                  className=" w-[100%] h-[100%] md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-105"
+                />
+              </li>
+              <li>
+                <img
+                  src="public/assets/guldasta8.png"
+                  alt="guldasta4"
+                  className=" w-[100%]  h-[100%] md:h-96 md:w-96 object-contain bg-pink-500/30 rounded-2xl flex justify-center items-center transition-all duration-400 ease-in-out hover:scale-120"
                 />
               </li>
             </ul>
